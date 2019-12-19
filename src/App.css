@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #456355;
+  background-image: url("./img/taco_icon.png");
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #d3dddc;
+}
+
+.App-link {
+  color: #c6b19d;
+}
+
+.list-header {
+  background-color: #456355;
+  background-image: url("./img/taco_icon.png");
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: #d3dddc;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h1 {
+  color: #fcd16b;
+  font-family: "Paralines-Regular";
+}
+
+.navName {
+  font-family: "Paralines-Regular";
+}
+
+.landingHeader {
+  font-family: "Paralines-Regular";
+  font-size: 5rem;
+  background-color: #456355;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background-color: #c6b19d;
+  border: 1px solid #d3dddc;
+  border-radius: 25px;
+  font-size: 1.25rem;
+  color: white;
+  margin-top: 2%;
+  padding: 0.25% 1.5% 0.25% 1.5%;
+}
+
+button:focus {
+  outline: none;
+}
+
+.cocktail_suggestion {
+  color: #fcd16b;
+  font-size: 1.25rem;
+  padding-top: 2%;
+}
+
+.cocktail_button {
+  background-color: #c6b19d;
+  border: 1px solid #d3dddc;
+  border-radius: 25px;
+  font-size: 1.25rem;
+  color: white;
+  margin-top: 2%;
+  padding: 0.25% 1.5% 0.25% 1.5%;
+}
+
+p {
+  font-size: 1.5rem;
+}
